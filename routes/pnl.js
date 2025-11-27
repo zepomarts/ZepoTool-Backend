@@ -6,3 +6,4 @@ const { getPnlReport } = require("../controllers/pnl.controller");
 router.get("/pnl", getPnlReport);
 
 module.exports = router;
+ 
